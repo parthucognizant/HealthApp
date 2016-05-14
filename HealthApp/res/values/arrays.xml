@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="fitbitlist">
+        <item>Heart Rate</item>
+        <item>Activity</item>
+        <item>Sleep</item>
+        <item>Body</item>
+        <item>Food Plan</item>
+        <item>Diet Plan</item>
+        <item>Orthopedic Plan</item>
+    </string-array>
+    
+    <string-array name="OrthopedicList">
+        <item>---Select---</item>
+        <item>Childhood</item>
+        <item>Adolescence</item>
+        <item>Young age</item>
+        <item>Middle Age</item>
+        <item>Old age</item>
+    </string-array>
+    
+    <string-array name="DietList">
+        <item>---Select---</item>
+        <item>Reduced hair growth</item>
+        <item>Night blindness</item>
+        <item>Loss of appetite</item>
+        <item>dry, rough skin</item>
+        <item>lowered resistance to infection</item>
+        <item>dry eyes</item>
+        <item>Muscle weakness</item>
+        <item>Depression</item>
+        <item>Muscle cramps</item>
+        <item>Anxiety</item>
+        <item>Easy bruising</item>
+        <item>Bleeding gums</item>
+        <item>Bone softening</item>
+        <item>Overweight</item>
+        <item>Age spots</item>
+        <item>Cataracts</item>
+        <item>Leg Cramps</item>
+        <item>Slow Healing</item>
+        <item>Brain Function</item>
+        <item>Tooth decay</item>
+        <item>Numbness in hands and feet’s</item>
+        <item>Weakness</item>
+        <item>Fatigue</item>
+        <item>Pale Skin</item>
+        <item>Headache</item>
+        <item>Shortness of Breadth</item>
+        <item>Brittle Nails, cracked lips</item>
+        <item>Hair Loss</item>
+        <item>Constant Craving</item>
+        <item>Muscle and/or joint pain</item>
+        <item>Sleep problem</item>
+        <item>Dizziness</item>
+        <item>Fatigue</item>
+    </string-array>
+    
+</resources>

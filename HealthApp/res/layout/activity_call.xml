@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/health">
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout android:id="@+id/rl_country_heading"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f91138">
+
+        <TextView
+            android:id="@+id/tv_header1"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"
+            android:textStyle="normal|bold" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_header2"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv_header1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="21sp"
+            android:textStyle="normal|bold" />
+
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/ll_country"
+        android:layout_height="250dp" android:layout_width="fill_parent">
+       
+            
+                <TableLayout
+                    android:layout_width="fill_parent" android:layout_height="fill_parent"
+                    android:stretchColumns="0,1" android:id="@+id/Display_table">
+
+                </TableLayout>
+            
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_HeartDetails"
+        android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+            <TextView
+                android:id="@+id/textViewHeartDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            
+            </LinearLayout>
+</LinearLayout>
+</ScrollView>
